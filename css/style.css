@@ -81,6 +81,7 @@ section.outer_wrapper {
     }
     .carousel-item img {
     width: 100%;
+    
     }
     .carousel-caption.d-none.d-md-block {
         position: absolute;
@@ -231,6 +232,12 @@ line-height: 30px;
 /* Dark 03 */
 
 color: #777777;
+}
+.ready_section {
+    padding: 0px;
+    height: auto;
+    background-color: #289bde;
+    padding: 80px 100px;
 }
 .profile img{
     width: 42px;
