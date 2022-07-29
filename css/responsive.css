@@ -1,4 +1,8 @@
 @media (min-width: 0) { 
+    .student {
+        width: 100%;
+        margin: 6px 0px;
+    }
     .carousel-caption {
         width: 70%;
         position: absolute;
@@ -102,10 +106,11 @@
     .footer_content h1 {
         font-size: 28px;
         line-height: 32px;
-        padding-bottom: 10px;
+        padding-bottom: 2px;
     }
     .footer_content p {
         padding: 6px 0px;
+        margin: 0px;
     }
     .footer_content span {
         padding: 6px 0px;
