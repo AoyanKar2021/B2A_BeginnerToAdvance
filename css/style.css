@@ -77,11 +77,42 @@ section.outer_wrapper {
     height: 36rem;
     overflow: hidden;
     width: 100%;
+    border-radius: 5px;
     }
     .carousel-item img {
     width: 100%;
     }
-
+    .carousel-caption.d-none.d-md-block {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-caption h5 {
+        font-size: 65px;
+        font-weight: 800;
+        left: 1px;
+        line-height: 64px;
+    }
+    .carousel-caption  {
+        font-size: 20px;
+       
+        left: 1px;
+        line-height: 24px;
+    }
+    .carousel-item::before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        width: 100%;
+        background-color: #161515b3;
+    }
 
 
 
