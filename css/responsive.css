@@ -220,7 +220,15 @@
 
 
 /*  Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
+    .elearning_info {
+        
+        width: 50%;
+    } 
+    .success_view {
+        display: flex;
+        justify-content: space-around;
+    }
     .carousel-item {
         height: 50rem;
        
@@ -256,6 +264,10 @@
         font-size: 18px;
         line-height: 28px;
         text-align: center;
+    }
+    .feedback {
+        width: 50%;
+        margin: 15px 0px;
     }
  }
 
